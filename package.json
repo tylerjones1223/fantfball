@@ -1,0 +1,19 @@
+{
+  "name": "fantfball",
+  "version": "1.0.0",
+  "description": "Fantasy Football with Friends",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerjones1223/fantfball.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylerjones1223/fantfball/issues"
+  },
+  "homepage": "https://github.com/tylerjones1223/fantfball#readme"
+}
