@@ -19,6 +19,7 @@
   "homepage": "https://github.com/tylerjones1223/fantfball#readme",
   "dependencies": {
     "bunyan": "^1.8.10",
+    "pg": "^6.4.0",
     "restify": "^5.0.0",
     "sequelize": "^4.2.1"
   }

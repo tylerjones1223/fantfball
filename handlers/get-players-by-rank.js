@@ -11,7 +11,7 @@ function byRank (req, res, next) {
       where: {
         position: position
       },
-      limit: 10
+      limit: 10,
       order: ['rank', 'DESC']
     })
     .then(function (players) {

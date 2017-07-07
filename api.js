@@ -3,7 +3,7 @@
 var http = require('https');
 var restify = require('restify');
 var handlers = require(__dirname + '/handlers');
-var models = require(__dirname + 'lib/db').models;
+var models = require(__dirname + '/lib/db').models;
 
 var app = restify.createServer({
   name: 'fantfball'
@@ -16,9 +16,9 @@ app.use(function setupScope (req, res, next) {
   next();
 });
 
-app.get('/echo', function echo (req, res, next) {
+app.get('/', function (req, res, next) {
   res.header('content-type', 'text/plain');
-  res.send(200, 'HiYo!\n');
+  res.send(200, 'This is a homepage');
   next();
 });
 
